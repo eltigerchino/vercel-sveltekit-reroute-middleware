@@ -1,7 +1,13 @@
+<script>
+  import { page } from "$app/state";
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
+
+<p>URL: {page.url.href}</p>
 
 <div class="text-column">
 	<h1>About this app</h1>
